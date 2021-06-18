@@ -517,8 +517,9 @@ public class Tetris extends JPanel {
 		}
 		
 		// Display the score
-		g.setColor(Color.WHITE);
-		g.drawString("" + score, 19*12, 25);
+		g.setColor(Color.BLACK);
+		g.drawString("Score " + score, 19*6, 650);
+		g.drawString(Integer.toString(score), 1, 20);
 		
 	}
 
